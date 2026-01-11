@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>{{ page.title }}</title>
+
+    <script src="https://kit.fontawesome.com/23272f65f2.js" crossorigin="anonymous"></script>
+
+     <link rel="stylesheet" href="{{ '/assets/css/accueil.css' | relative_url }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <p class="site-title">{{ site.title }}</p>
+        <p class="page-title">{{ page.title }}</p>
+    </header>
+
+    <main>
+        {{ content }}
+
+        <div class="social-div">
+            <a href="https://github.com/kyllianR" target="_blank" class="button">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/kyllian-rullier-95891b208/" target="_blank" class="button">
+                <i class="fa-brands fa-square-linkedin"></i>
+            </a>
+
+            <a href="https://https://www.instagram.com/chui_un_saiyan/" target="_blank" class="button">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="mailto:{{ site.author.email }}" class="button">
+                <i class="fa-solid fa-message"></i>
+            </a>
+        </div>
+
+        <a href="/index" class="retour">Retour</a>
+    </main>
+
+    <footer>
+        <p class="foot"> {{ site.title }} — Pour l'amour de l'art</p>
+    </footer>
+    
+</body>
+</html>

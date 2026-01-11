@@ -1,0 +1,456 @@
+
+body {
+    background-color:rgb(37, 38, 41);
+}
+
+.titre {
+    text-align: center;
+    font-size: 5.7rem;
+    font-family: 'Impact', sans-serif;
+    color: rgb(224, 224, 224);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    background-image: url(images/fond-yugioh.jpg);
+    border: solid, rgb(255, 255, 255);
+    background-size: 500px;
+    height: 400px;
+    padding-top: 260px;
+}
+
+.intro-p {
+    font-size: 2.3rem;
+    width: auto;
+    text-align: center;
+    margin-top: 200px;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgb(49, 52, 119);
+    color:  rgb(224, 224, 224);
+    border-style: double;
+    border-color: rgb(49, 52, 119);
+    border-width: 8px;
+    border-left: hidden;
+    border-right: hidden;
+    height: 240px;
+    padding-top: 110px;
+}
+
+.intro-2p {
+    width: 65%;
+    margin: 0 auto;
+    border-style: ridge;
+    border-top: hidden;
+    border-width: 25px;
+    padding: 10px 30px 30px 30px;
+}
+
+.intro-3p {
+    width: 45%;
+    margin: 60px auto auto;
+    border-style: ridge;
+    border-top: hidden;
+    border-width: 25px;
+    padding: 10px 30px 60px 30px;
+}
+
+.intro-4p {
+    width: 45%;
+    margin: 60px auto auto;
+    border-style: ridge;
+    border-top: hidden;
+    border-width: 25px;
+    padding: 10px 30px 85px 30px;
+}
+
+.intro-5p {
+    width: 45%;
+    margin: 60px auto auto;
+    border-style: ridge;
+    border-top: hidden;
+    border-width: 25px;
+    padding: 10px 30px 85px 30px;
+}
+
+.intro {
+    font-size: 1.6rem;
+    font-family: 'Impact', sans-serif;
+    text-align: center;
+    color: rgb(224, 224, 224);
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: rgb(49, 52, 119);
+}
+
+.boutton-par-ici {
+text-decoration: none;
+padding: 1em;
+font-family: 'Impact', sans-serif;
+font-size: 0.8em;
+color: #FFFFFF;
+background-color: #595959;
+border-radius: 25px;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border: 4px double #f2f2f2;
+box-shadow: 6px 6px 8px #444444;
+-webkit-box-shadow: 6px 6px 8px #444444;
+-moz-box-shadow: 6px 6px 8px #444444;
+position: absolute;
+margin: -1.5% 0 0 17%;
+}
+
+
+.boutton-par-ici:hover {
+padding: 0.9em;
+font-size: 0.7em;
+border-radius: 24px;
+-webkit-border-radius: 24px;
+-moz-border-radius: 24px;
+box-shadow: 1px 1px 18px #d8d8d8;
+-webkit-box-shadow: 1px 1px 18px #d8d8d8;
+-moz-box-shadow: 1px 1px 18px #d8d8d8;
+}
+
+.boutton-au-tableau {
+text-decoration: none;
+padding: 1em;
+font-family: 'Impact', sans-serif;
+font-size: 0.8em;
+color: #FFFFFF;
+background-color: #595959;
+border-radius: 25px;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border: 4px double #f2f2f2;
+box-shadow: 6px 6px 8px #444444;
+-webkit-box-shadow: 6px 6px 8px #444444;
+-moz-box-shadow: 6px 6px 8px #444444;
+position: absolute;
+margin: -7% -0 0 14.5%;
+}
+
+
+.boutton-au-tableau:hover {
+padding: 0.9em;
+font-size: 0.7em;
+border-radius: 24px;
+-webkit-border-radius: 24px;
+-moz-border-radius: 24px;
+box-shadow: 1px 1px 18px #d8d8d8;
+-webkit-box-shadow: 1px 1px 18px #d8d8d8;
+-moz-box-shadow: 1px 1px 18px #d8d8d8;
+}
+
+.boutton-les-conseils {
+text-decoration: none;
+padding: 1em;
+font-family: 'Impact', sans-serif;
+font-size: 0.8em;
+color: #FFFFFF;
+background-color: #595959;
+border-radius: 25px;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border: 4px double #f2f2f2;
+box-shadow: 6px 6px 8px #444444;
+-webkit-box-shadow: 6px 6px 8px #444444;
+-moz-box-shadow: 6px 6px 8px #444444;
+position: absolute;
+margin: -7% 0 0 13.5%;
+}
+
+
+.boutton-les-conseils:hover {
+padding: 0.9em;
+font-size: 0.7em;
+border-radius: 24px;
+-webkit-border-radius: 24px;
+-moz-border-radius: 24px;
+box-shadow: 1px 1px 18px #d8d8d8;
+-webkit-box-shadow: 1px 1px 18px #d8d8d8;
+-moz-box-shadow: 1px 1px 18px #d8d8d8;
+}
+
+.h3p {
+    font-size: 1.9rem;
+    font-family: 'Impact', sans-serif;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgba(176, 179, 4, 0.659);
+    text-align: left;
+}
+
+.pp {
+    float: right;
+    font-family: 'Impact', sans-serif;
+    font-size: 1.3rem;
+    color: rgb(170, 170, 170);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.desc-p {
+    float: right;
+    width: 50%;
+    height: auto;
+    margin: 50px 3% auto auto;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: whitesmoke;
+    border-left: hidden;
+    border-bottom: hidden;
+}
+
+.logo-pokémon {
+    border-radius: 40px;
+    width: 40%;
+    height: auto;
+    max-width: 600px;
+    margin: 50px auto auto 3%;
+}
+
+.cartes-pokémon {
+    border-radius: 40px;
+    width: 40%;
+    height: auto;
+    margin: 55px auto auto 6%;
+    float: left;
+}
+
+.booster-pokémon {
+    border-radius: 40px;
+    width: 41%;
+    height: auto;
+    margin: 495px auto auto 8%;
+    position: absolute;
+}
+
+.h3s {
+    font-size: 1.9rem;
+    font-family: 'Impact', sans-serif;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgba(179, 4, 4, 0.659);
+    text-align: right;
+}
+
+.ps {
+    font-family: 'Impact', sans-serif;
+    font-size: 1.3rem;
+    color: rgb(170, 170, 170);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    text-align: right;
+}
+
+.desc-s {
+    width: 50%;
+    height: auto;
+    margin: 580px auto 0 3%;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: whitesmoke;
+    border-right: hidden;
+    border-bottom: hidden;
+    padding-left: 0.2%;
+}
+
+.boîte {
+    border-radius: 40px;
+    width: 35%;
+    height: auto;
+    margin: 940px 3% 5% 200px;
+    position: absolute;
+}
+
+.carte-héro {
+    border-radius: 40px;
+    width: 40%;
+    height: auto;
+    margin: 30px 3% auto 6%;
+}
+
+.cartes-shards {
+    border-radius: 40px;
+    width: 30%;
+    height: auto;
+    margin: 0 auto auto 50px;
+    position: relative;
+}
+
+.h3h {
+    font-size: 1.9rem;
+    font-family: 'Impact', sans-serif;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgba(4, 138, 179, 0.659);
+    text-align: left;
+}
+
+.ph {
+    font-family: 'Impact', sans-serif;
+    font-size: 1.3rem;
+    color: rgb(170, 170, 170);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    text-align: left;
+}
+
+.desc-h {
+    width: 50%;
+    height: auto;
+    margin: 100px 3% auto auto;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: whitesmoke;
+    border-left: hidden;
+    border-bottom: hidden;
+    float: right;
+    padding-right: 0.5%;
+}
+
+.logo-hearthstone {
+    border-radius: 40px;
+    width: 40%;
+    height: auto;
+    max-width: 600px;
+    margin: 150px auto auto 3%;
+}
+
+.cartes-hearthstone {
+    border-radius: 40px;
+    width: 45%;
+    height: auto;
+    margin: 50px auto auto 3%;
+    position: absolute;
+}
+
+.héros {
+    border-radius: 40px;
+    width: 40%;
+    height: auto;
+    max-width: 600px;
+    margin: 50px auto auto 5%;
+}
+
+.retour {
+text-decoration: none;
+padding: 1.5em 3em;
+font-family: 'Impact', sans-serif;
+font-size: auto;
+color: #FFFFFF;
+background-color: #595959;
+border-radius: 25px;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border: 4px double #f2f2f2;
+box-shadow: 6px 6px 8px #444444;
+-webkit-box-shadow: 6px 6px 8px #444444;
+-moz-box-shadow: 6px 6px 8px #444444;
+margin: 1% 0 auto 10%;
+position: absolute;
+}
+
+
+.retour:hover {
+padding: 1.3em 2.6em;
+font-size: auto;
+border-radius: 24px;
+-webkit-border-radius: 24px;
+-moz-border-radius: 24px;
+box-shadow: 1px 1px 18px #d8d8d8;
+-webkit-box-shadow: 1px 1px 18px #d8d8d8;
+-moz-box-shadow: 1px 1px 18px #d8d8d8;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+  background-color: #585858;
+  color: #c4c1c1;
+  margin-top: 10%;
+}
+
+table {
+    border: 3px solid rgb(170, 170, 170);
+    font-size: 28px;
+    font-family: 'Impact', sans-serif;
+    color: rgb(170, 170, 170);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    margin: 4% auto;
+    padding: 5px;
+    
+}
+
+th, td {
+    border: 2px solid rgb(170, 170, 170);
+    padding: 5px 35px;
+    text-align: center;
+}
+
+th {
+    font-size: 38px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(112, 27, 27);
+}
+
+caption {
+    font-size: 25px;
+}
+
+.retour2 {
+text-decoration: none;
+padding: 1.5em 3em;
+font-family: 'Impact', sans-serif;
+font-size: auto;
+color: #FFFFFF;
+background-color: #595959;
+border-radius: 25px;
+-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border: 4px double #f2f2f2;
+box-shadow: 6px 6px 8px #444444;
+-webkit-box-shadow: 6px 6px 8px #444444;
+-moz-box-shadow: 6px 6px 8px #444444;
+margin: auto auto 10% 10%;
+position: absolute;
+}
+
+
+.retour2:hover {
+padding: 1.3em 2.6em;
+font-size: auto;
+border-radius: 24px;
+-webkit-border-radius: 24px;
+-moz-border-radius: 24px;
+box-shadow: 1px 1px 18px #d8d8d8;
+-webkit-box-shadow: 1px 1px 18px #d8d8d8;
+-moz-box-shadow: 1px 1px 18px #d8d8d8;
+}
+
+.conseils h3 {
+    font-size: 3.2rem;
+    font-family: 'Impact', sans-serif;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgba(225, 88, 195, 0.388);
+    text-align: center;
+}
+
+.conseils p {
+    font-family: 'Impact', sans-serif;
+    font-size: 2rem;
+    color: rgb(170, 170, 170);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgba(221, 74, 189, 0.551);
+    text-align: center;
+}
+
+.conseils li {
+    font-family: 'Impact', sans-serif;
+    font-size: 1.5rem;
+    color: rgb(170, 170, 170);
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
